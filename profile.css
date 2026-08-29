@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #f2f7ff;
+    line-height: 1.6;
+}
+
+header {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px;
+    background-color: lightblue;
+}
+
+nav a {
+    color: darkblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    width: 90%;
+    margin: 30px auto;
+}
+
+section,
+article,
+aside {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+#about {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.skills {
+    display: flex;
+    gap: 15px;
+}
+
+.skills div {
+    padding: 15px;
+    background-color: lightblue;
+}
+
+aside {
+    position: relative;
+}
+
+footer {
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+}
+
+footer a {
+    color: white;
+}
