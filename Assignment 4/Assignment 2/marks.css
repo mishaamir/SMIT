@@ -1,0 +1,34 @@
+body {
+    background-color: lightblue;
+    font-family: Arial;
+}
+
+#marksTable {
+    width: 70%;
+    margin: 50px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+caption {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+th {
+    background-color: darkblue;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.total {
+    background-color: lightgreen;
+    font-weight: bold;
+}
