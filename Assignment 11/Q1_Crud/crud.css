@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #eef3f9;
+  color: #1f2937;
+}
+
+/* Header */
+header {
+  background: #1e3a6e;
+  color: #fff;
+  text-align: center;
+  padding: 18px 10px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 22px;
+}
+
+header p {
+  margin: 4px 0 0;
+  font-size: 12px;
+  opacity: 0.85;
+}
+
+/* Layout */
+main {
+  max-width: 760px;
+  margin: 20px auto;
+  padding: 0 12px;
+}
+
+.panel {
+  background: #fff;
+  border-radius: 10px;
+  padding: 18px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.panel h2 {
+  margin: 0 0 12px;
+  font-size: 16px;
+}
+
+/* Form */
+.row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.row input {
+  flex: 1;
+}
+
+.row input[type="number"] {
+  font-weight: bold;
+  color: #1e3a6e;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 13px;
+  font-family: inherit;
+}
+
+textarea {
+  height: 70px;
+  resize: vertical;
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+/* Buttons */
+.btn {
+  border: none;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+.orange { background: #f06d1d; }
+.gray   { background: #64748b; }
+.green  { background: #1e7a4f; }
+.red    { background: #c0392b; }
+
+/* Messages */
+.message {
+  margin-top: 12px;
+  padding: 8px 10px;
+  border-radius: 4px;
+  font-size: 13px;
+  display: none;
+}
+
+.message.show    { display: block; }
+.message.success { background: #e3f4e8; color: #17653d; }
+.message.error   { background: #fde8e8; color: #a12020; }
+.message.loading { background: #e8effc; color: #1e3a6e; }
+
+.note {
+  margin: 12px 0 0;
+  font-size: 11px;
+  color: #6b7280;
+}
+
+/* Posts */
+.posts-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.posts-header span {
+  font-size: 11px;
+  color: #6b7280;
+}
+
+.posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+}
+
+.card {
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card .ids {
+  font-size: 10px;
+  color: #6b7280;
+}
+
+.card h3 {
+  margin: 6px 0;
+  font-size: 13px;
+}
+
+.card p {
+  margin: 0 0 10px;
+  font-size: 12px;
+  color: #4b5563;
+  flex: 1;
+}
+
+.card .actions {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}

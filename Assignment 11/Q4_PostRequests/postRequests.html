@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API Request Practice</title>
+  <link rel="stylesheet" href="postRequests.css">
+</head>
+<body>
+
+  <header>
+    <h1>API Request Practice</h1>
+    <p>Create and update an announcement</p>
+  </header>
+
+  <main>
+    <!-- POST form -->
+    <section class="panel">
+      <h2>Create a Post (POST)</h2>
+      <form id="postForm">
+        <input type="text" id="title" placeholder="Title" required>
+        <textarea id="content" placeholder="Content" required></textarea>
+        <input type="number" id="userId" placeholder="User ID" value="1" min="1" required>
+        <button type="submit" class="btn blue">Submit POST</button>
+      </form>
+    </section>
+
+    <!-- Buttons -->
+    <section class="panel">
+      <h2>Change Post #1</h2>
+      <div class="buttons">
+        <button id="putBtn" class="btn green">PUT (replace)</button>
+        <button id="patchBtn" class="btn orange">PATCH (title only)</button>
+        <button id="deleteBtn" class="btn red">DELETE</button>
+      </div>
+    </section>
+
+    <!-- Response output -->
+    <section class="panel">
+      <h2>Response</h2>
+      <p id="message" class="message">Nothing sent yet.</p>
+      <pre id="output"></pre>
+    </section>
+  </main>
+
+  <script src="postRequests.js"></script>
+</body>
+</html>
