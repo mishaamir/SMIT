@@ -1,0 +1,5 @@
+Student Ali registered successfully.
+Student Sara registered successfully.
+Student Ahmed logged into the system.
+Student Ayesha updated her profile.
+Student Hamza completed registration.

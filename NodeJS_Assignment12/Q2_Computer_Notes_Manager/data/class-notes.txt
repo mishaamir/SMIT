@@ -1,0 +1,4 @@
+1. Node.js runs JavaScript outside the browser.
+2. The os module provides computer information.
+3. The path module helps manage file paths.
+4. The fs module manages files.
